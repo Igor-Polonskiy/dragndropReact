@@ -5,14 +5,18 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-  const [arr] = useState([
+  const [dragZone] = useState([
     {
+      id: 1,
       color: "blue",
       shape: "square",
+      parent : 'drag'
     },
     {
+      id: 1,
       color: "green",
       shape: "circle",
+      parent : 'drag'
     },
   ]);
 
@@ -35,7 +39,7 @@ function App() {
         Фигур в зоне для перетаскивания: <span>{count}</span>
       </h3>
       <Drop />
-      <Drag figuresArr={arr} />
+      <Drag figuresArr={dragZone} />
     </div>
   );
 }

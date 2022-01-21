@@ -7,8 +7,8 @@ export default function Drag({figuresArr}) {
 
   return (
     <div className="drag">
-      {figures.map((item, index) => 
-      <Figure key={index} figureColor={item.color} figureShape={item.shape} />)}
+      {figures.map(item => 
+      <Figure key={item.id} figureColor={item.color} figureShape={item.shape} />)}
     </div>
   );
 }
