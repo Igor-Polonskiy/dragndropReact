@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dragndropreact/static/css/main.21151d8e.css",
+    "main.js": "/dragndropreact/static/js/main.a61c5f16.js",
+    "static/js/787.7c33fd62.chunk.js": "/dragndropreact/static/js/787.7c33fd62.chunk.js",
+    "index.html": "/dragndropreact/index.html",
+    "main.21151d8e.css.map": "/dragndropreact/static/css/main.21151d8e.css.map",
+    "main.a61c5f16.js.map": "/dragndropreact/static/js/main.a61c5f16.js.map",
+    "787.7c33fd62.chunk.js.map": "/dragndropreact/static/js/787.7c33fd62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21151d8e.css",
+    "static/js/main.a61c5f16.js"
+  ]
+}
